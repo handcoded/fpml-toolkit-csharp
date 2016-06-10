@@ -14,7 +14,6 @@
 using System;
 using System.Configuration;
 using System.IO;
-using System.Text;
 using System.Xml;
 using System.Xml.Schema;
 
@@ -22,9 +21,7 @@ using log4net;
 
 using HandCoded.Framework;
 using HandCoded.Meta;
-using HandCoded.Validation;
 using HandCoded.Xml.Resolver;
-using HandCoded.Xml.Writer;
 
 namespace HandCoded.Xml
 {

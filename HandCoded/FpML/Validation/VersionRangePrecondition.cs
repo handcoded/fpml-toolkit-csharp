@@ -11,12 +11,9 @@
 // LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING
 // OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Xml;
 
-using HandCoded.FpML.Util;
 using HandCoded.Meta;
 using HandCoded.Validation;
 using HandCoded.Xml;

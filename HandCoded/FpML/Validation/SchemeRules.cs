@@ -12,10 +12,8 @@
 // OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
 
 using System;
-using System.Xml;
 
 using HandCoded.Validation;
-using HandCoded.Xml;
 
 namespace HandCoded.FpML.Validation
 {

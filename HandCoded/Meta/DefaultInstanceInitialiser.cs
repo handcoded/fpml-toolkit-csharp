@@ -14,8 +14,6 @@
 using System;
 using System.Xml;
 
-using HandCoded.Meta;
-
 namespace HandCoded.Meta
 {
 	/// <summary>

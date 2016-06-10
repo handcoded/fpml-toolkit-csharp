@@ -11,16 +11,9 @@
 // LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING
 // OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
 
-using System;
-using System.Configuration;
-using System.IO;
-using System.Xml;
-
 using log4net;
 
 using HandCoded.FpML.Meta;
-using HandCoded.FpML.Schemes;
-using HandCoded.Xml;
 
 namespace HandCoded.FpML
 {

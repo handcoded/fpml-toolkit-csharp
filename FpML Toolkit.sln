@@ -1,28 +1,22 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate", "Validate\Validate.csproj", "{3A76F324-C71C-4EAE-99B5-14350107F011}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandCoded", "HandCoded\HandCoded.csproj", "{B3022E16-39AC-48FC-ABAC-BA2B85FCB818}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaData", "MetaData\MetaData.csproj", "{46E64C54-CB86-4A3A-AA3D-9FD3A4711958}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert", "Convert\Convert.csproj", "{F8007D0B-388C-45F4-8083-2F5879942D29}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classify", "Classify\Classify.csproj", "{E7DA8D46-D1B7-49A3-BC90-0913A4718D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCompiler", "CodeCompiler\CodeCompiler.csproj", "{D9A0C28A-3F58-4B31-B46B-FACAA48BE7D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infoset", "Infoset\Infoset.csproj", "{326CFDC9-BE9B-4225-9CE2-6F1626FBC573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewCompiler", "ViewCompiler\ViewCompiler.csproj", "{83C75060-5166-4EA6-A9C8-FA298BC5697F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +40,22 @@ Global
 		{F8007D0B-388C-45F4-8083-2F5879942D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8007D0B-388C-45F4-8083-2F5879942D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8007D0B-388C-45F4-8083-2F5879942D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DA8D46-D1B7-49A3-BC90-0913A4718D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DA8D46-D1B7-49A3-BC90-0913A4718D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DA8D46-D1B7-49A3-BC90-0913A4718D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DA8D46-D1B7-49A3-BC90-0913A4718D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A0C28A-3F58-4B31-B46B-FACAA48BE7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A0C28A-3F58-4B31-B46B-FACAA48BE7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A0C28A-3F58-4B31-B46B-FACAA48BE7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A0C28A-3F58-4B31-B46B-FACAA48BE7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326CFDC9-BE9B-4225-9CE2-6F1626FBC573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326CFDC9-BE9B-4225-9CE2-6F1626FBC573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326CFDC9-BE9B-4225-9CE2-6F1626FBC573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326CFDC9-BE9B-4225-9CE2-6F1626FBC573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C75060-5166-4EA6-A9C8-FA298BC5697F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C75060-5166-4EA6-A9C8-FA298BC5697F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C75060-5166-4EA6-A9C8-FA298BC5697F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C75060-5166-4EA6-A9C8-FA298BC5697F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

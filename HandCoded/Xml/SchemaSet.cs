@@ -17,7 +17,6 @@ using System.Text;
 using System.Xml.Schema;
 
 using HandCoded.Meta;
-using HandCoded.Xml;
 using HandCoded.Xml.Resolver;
 
 using log4net;

@@ -93,7 +93,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acme\Releases.cs" />
+    <Compile Include="Classification\AbstractCategory.cs" />
+    <Compile Include="Classification\ApplicableDelegate.cs" />
+    <Compile Include="Classification\Category.cs" />
+    <Compile Include="Classification\ClassificationScheme.cs" />
+    <Compile Include="Classification\DelegatedCategory.cs" />
+    <Compile Include="Classification\DelegatedRefinableCategory.cs" />
+    <Compile Include="Classification\RefinableCategory.cs" />
+    <Compile Include="Classification\Xml\ClassificationSchemeLoader.cs" />
+    <Compile Include="Classification\Xml\ExprNode.cs" />
+    <Compile Include="Classification\Xml\IfNode.cs" />
+    <Compile Include="Classification\Xml\RangeNode.cs" />
+    <Compile Include="Classification\Xml\ReleaseNode.cs" />
+    <Compile Include="Classification\Xml\XmlCategory.cs" />
+    <Compile Include="Classification\Xml\XPathNode.cs" />
+    <Compile Include="DataEncoding\Base32.cs" />
     <Compile Include="Finance\CalendarSet.cs" />
+    <Compile Include="FpML\Classification\FpMLTaxonomy.cs" />
+    <Compile Include="FpML\Classification\ISDATaxonomy.cs" />
+    <Compile Include="FpML\Identification\AlternateUPI.cs" />
+    <Compile Include="FpML\Identification\UPI.cs" />
+    <Compile Include="FpML\Identification\UPIExtractor.cs" />
+    <Compile Include="FpML\Identification\UPIFormatter.cs" />
+    <Compile Include="FpML\Identification\UPISwapEmbeddedOptionExtractor.cs" />
+    <Compile Include="FpML\Infoset\ProductInfoset.cs" />
     <Compile Include="FpML\Meta\FpMLDTDReleaseLoader.cs" />
     <Compile Include="FpML\Meta\FpMLSchemaReleaseLoader.cs" />
     <Compile Include="FpML\Util\Identifier.cs" />
@@ -113,6 +136,15 @@
     <Compile Include="FpML\Validation\ReferenceRules.cs" />
     <Compile Include="FpML\Validation\TypeContext.cs" />
     <Compile Include="FpML\Validation\VersionRangePrecondition.cs" />
+    <Compile Include="Identification\IdentifierRule.cs" />
+    <Compile Include="Identification\IExtractor.cs" />
+    <Compile Include="Identification\IFormatter.cs" />
+    <Compile Include="Identification\ISource.cs" />
+    <Compile Include="Identification\Property.cs" />
+    <Compile Include="Identification\RuleBook.cs" />
+    <Compile Include="Identification\Xml\RuleBookLoader.cs" />
+    <Compile Include="Identification\Xml\StringExtractor.cs" />
+    <Compile Include="Identification\Xml\XmlSource.cs" />
     <Compile Include="Meta\DefaultDTDReleaseLoader.cs" />
     <Compile Include="Meta\DefaultSchemaReleaseLoader.cs" />
     <Compile Include="Meta\InstanceInitialiser.cs" />
@@ -377,6 +409,7 @@
     </Compile>
     <Compile Include="Xsl\Transformation.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

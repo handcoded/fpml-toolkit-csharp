@@ -12,7 +12,6 @@
 // OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
 
 using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace HandCoded.Finance
