@@ -1,4 +1,4 @@
-// Copyright (C),2005-2012 HandCoded Software Ltd.
+// Copyright (C),2005-2016 HandCoded Software Ltd.
 // All rights reserved.
 //
 // This software is licensed in accordance with the terms of the 'Open Source
@@ -49,7 +49,7 @@ namespace HandCoded.FpML.Validation
 						    "equitySwapTransactionSupplement",
 						    "varianceOptionTransactionSupplement",
 						    "varianceSwap",
-						    "varianceSwapTransationSupplement"
+						    "varianceSwapTransactionSupplement"
 				    },
 				    new String [] {
 						    "EquityOption",
@@ -59,7 +59,7 @@ namespace HandCoded.FpML.Validation
 						    "EquitySwapTransactionSupplement",
 						    "VarianceOptionTransactionSupplement",
 						    "VarianceSwap",
-						    "VarianceSwapTransationSupplement"
+						    "VarianceSwapTransactionSupplement"
 				    });
 
         /// <summary>
