@@ -44,9 +44,9 @@ namespace HandCoded.Framework
                 string dataDirectory = ConfigurationManager.AppSettings ["HandCoded.FpML Toolkit.DataDirectory"];
 
                 if (dataDirectory.Equals ("."))
-                    return (AppDomain.CurrentDomain.BaseDirectory);
+                    return (System.Environment.CurrentDirectory);
                 else
-                    return (Path.Combine (AppDomain.CurrentDomain.BaseDirectory, dataDirectory));
+                    return (Path.Combine (System.Environment.CurrentDirectory, dataDirectory));
             }
         }
 

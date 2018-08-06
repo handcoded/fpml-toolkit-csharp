@@ -1,4 +1,4 @@
-// Copyright (C),2005-2013 HandCoded Software Ltd.
+// Copyright (C),2005-2018 HandCoded Software Ltd.
 // All rights reserved.
 //
 // This software is licensed in accordance with the terms of the 'Open Source
@@ -730,7 +730,9 @@ namespace HandCoded.FpML.Validation
 				Interval payment = ToInterval (paymentFreq);
 				Interval calc    = ToInterval (calcFreq);
 
-				if ((payment == null) || (calc == null) || payment.IsMultipleOf (calc)) continue;
+				if ((payment == null) || (calc == null) ||
+                    !IsMonthOrYear (payment) || !IsMonthOrYear (calc) || payment.IsMultipleOf (calc))
+                    continue;
 
 				errorHandler ("305", context,
 					"Payment frequency '" + ToInterval (paymentFreq) +
@@ -862,7 +864,8 @@ namespace HandCoded.FpML.Validation
 				Interval calc  = ToInterval (calcFreq);
 				Interval reset = ToInterval (resetFreq);
 				
-				if ((calc == null) || (reset == null) || calc.IsMultipleOf (reset))
+				if ((calc == null) || (reset == null) || 
+                    !IsMonthOrYear (calc) || !IsMonthOrYear (reset) || calc.IsMultipleOf (reset))
 					continue;
 
 				errorHandler ("305", context,
@@ -3019,5 +3022,18 @@ namespace HandCoded.FpML.Validation
 				step = step.Plus (freq);
 			}
 		}
-	}
+
+        /// <summary>
+        /// Tests if the provide <see cref="Interval"/> is expressed in months
+        /// or years
+        /// </summary>
+        /// <param name="interval">The <see cref="Interval"/> to test.</param>
+        /// <returns><c>true</c> if the interval is expressed in months or years.</returns>
+        private static bool IsMonthOrYear (Interval interval)
+        {
+            Period      period = interval.Period;
+
+            return ((period == Period.MONTH) || (period == Period.YEAR));
+        }
+    }
 }
