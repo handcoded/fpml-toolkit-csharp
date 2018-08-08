@@ -354,7 +354,7 @@ namespace HandCoded.Meta
                     FileMode.Open);
 
 			    XmlDocument document = new XmlDocument ();
-                document.Load (new XIncludingReader (stream));
+                document.Load (stream);
    				
 			    foreach (XmlElement context in XPath.Paths (document.DocumentElement, "specification")) {
 				    XmlElement name = XPath.Path (context, "name");

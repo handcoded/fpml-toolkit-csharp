@@ -452,6 +452,46 @@ namespace HandCoded.FpML
                 as SchemaRelease;
 
         /// <summary>
+        /// A <see cref="SchemaRelease"/> instance containing the details for
+        /// FpML 5-10 confirmation view recommendation.
+        /// </summary>
+        public static readonly SchemaRelease R5_10_CONFIRMATION
+            = FPML.GetReleaseForVersionAndNamespace ("5-10", "http://www.fpml.org/FpML-5/confirmation")
+                as SchemaRelease;
+
+        /// <summary>
+        /// A <see cref="SchemaRelease"/> instance containing the details for
+        /// FpML 5-10 record keeeping view recommendation.
+        /// </summary>
+        public static readonly SchemaRelease R5_10_RECORDKEEPING
+            = FPML.GetReleaseForVersionAndNamespace ("5-10", "http://www.fpml.org/FpML-5/recordkeeping")
+                as SchemaRelease;
+
+        /// <summary>
+        /// A <see cref="SchemaRelease"/> instance containing the details for
+        /// FpML 5-10 reporting view recommendation.
+        /// </summary>
+        public static readonly SchemaRelease R5_10_REPORTING
+            = FPML.GetReleaseForVersionAndNamespace ("5-10", "http://www.fpml.org/FpML-5/reporting")
+                as SchemaRelease;
+
+        /// <summary>
+        /// A <see cref="SchemaRelease"/> instance containing the details for
+        /// FpML 5-10 transparency view recommendation.
+        /// </summary>
+        public static readonly SchemaRelease R5_10_TRANSPARENCY
+            = FPML.GetReleaseForVersionAndNamespace ("5-10", "http://www.fpml.org/FpML-5/transparency")
+                as SchemaRelease;
+
+        /// <summary>
+        /// A <see cref="SchemaRelease"/> instance containing the details for
+        /// FpML 5-10 pre-trade view recommendation.
+        /// </summary>
+        public static readonly SchemaRelease R5_10_PRETRADE
+            = FPML.GetReleaseForVersionAndNamespace ("5-10", "http://www.fpml.org/FpML-5/pretrade")
+                as SchemaRelease;
+
+        /// <summary>
 		/// The FpML 1.0 to 2.0 <see cref="HandCoded.Meta.Conversion"/> instance.
 		/// </summary>
 		private static readonly HandCoded.Meta.Conversion R1_0__R2_0
